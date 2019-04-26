@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{D77C3BBB-15A9-42C0-B79C-91B5C6F93D22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Application", "02.Application", "{3247562B-8DFC-4325-A1F7-61431F6A127F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Domain", "03.Domain", "{4409B0D0-8C0B-4CA8-9458-6F90A4138671}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Data", "04.Data", "{A756916B-DD02-4D62-AAAD-122697B21FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wfc.UI", "..\wfc.UI\wfc.UI.csproj", "{37214E5B-227E-4651-BD25-6452BE001414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf.Data", "..\wcf.Data\wcf.Data.csproj", "{BAEE437A-C885-408C-B8B9-3A4D83ACB5BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37214E5B-227E-4651-BD25-6452BE001414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37214E5B-227E-4651-BD25-6452BE001414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37214E5B-227E-4651-BD25-6452BE001414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37214E5B-227E-4651-BD25-6452BE001414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEE437A-C885-408C-B8B9-3A4D83ACB5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEE437A-C885-408C-B8B9-3A4D83ACB5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEE437A-C885-408C-B8B9-3A4D83ACB5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEE437A-C885-408C-B8B9-3A4D83ACB5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37214E5B-227E-4651-BD25-6452BE001414} = {D77C3BBB-15A9-42C0-B79C-91B5C6F93D22}
+		{BAEE437A-C885-408C-B8B9-3A4D83ACB5BB} = {A756916B-DD02-4D62-AAAD-122697B21FDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B723B6AA-87CB-41C0-A26F-F02F87E544FA}
+	EndGlobalSection
+EndGlobal
